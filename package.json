@@ -1,0 +1,23 @@
+{
+  "name": "gt-notifier",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A Discord bot that notifies all users when the 2022 Grade Thresholds for Cambridge O Levels are available. ",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Moo",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^2.1.0",
+    "discord.js": "^13.9.0",
+    "dotenv": "^16.0.1",
+    "fb": "^2.0.0",
+    "puppeteer": "^16.1.1"
+  },
+  "devDependencies": {
+    "@types/cron": "^2.0.0",
+    "@types/fb": "^0.0.28"
+  }
+}

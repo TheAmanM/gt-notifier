@@ -1,0 +1,26 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+*service*account*.json
+*firebase-adminsdk*.json
+credentials*.json
+secrets.*
+.npmrc
+.netrc
+
+# Dependencies and generated output
+node_modules/
+build/
+dist/
+out/
+coverage/
+*.log
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
